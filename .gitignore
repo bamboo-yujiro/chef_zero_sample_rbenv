@@ -1,5 +1,5 @@
 /vendor/
 /bin/
 /.bundle/
-/node/*
+/nodes/*
 /clients/*
