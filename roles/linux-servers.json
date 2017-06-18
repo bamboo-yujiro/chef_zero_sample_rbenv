@@ -1,0 +1,15 @@
+{
+  "name": "linux-servers",
+  "default_attributes": {
+    "rbenv": {
+      "rubies": [
+        "2.3.1"
+      ],
+      "global": "2.3.1"
+    }
+  },
+  "run_list": [
+    "recipe[ruby_build]",
+    "recipe[ruby_rbenv::system]"
+  ]
+}
